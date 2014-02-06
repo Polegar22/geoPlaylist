@@ -84,6 +84,7 @@ public class GeoZic implements EntryPoint {
 				dialogBox.hide();
 				sendButton.setEnabled(true);
 				sendButton.setFocus(true);
+				
 			}
 		});
 
