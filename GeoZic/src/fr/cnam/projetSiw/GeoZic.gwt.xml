@@ -22,7 +22,7 @@
   <!-- Specify the app entry point class.                         -->
   <entry-point class='fr.cnam.projetSiw.client.GeoZic'/>
 
-  <!-- Specify the paths for translatable code                    -->
+  <!-- Specify the paths fSparqlServiceor translatable code                    -->
   <source path='client'/>
   <source path='shared'/>
 

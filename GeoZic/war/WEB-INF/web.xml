@@ -6,16 +6,25 @@
          xmlns="http://java.sun.com/xml/ns/javaee">
 
   <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>fr.cnam.projetSiw.server.GreetingServiceImpl</servlet-class>
+   <servlet>
+    <servlet-name>xpathServlet</servlet-name>
+    <servlet-class>fr.cnam.projetSiw.server.XpathServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/geozic/greet</url-pattern>
+    <servlet-name>xpathServlet</servlet-name>
+    <url-pattern>/geozic/xpath</url-pattern>
   </servlet-mapping>
   
+      <servlet>
+    <servlet-name>sparqlServlet</servlet-name>
+    <servlet-class>fr.cnam.projetSiw.server.SparqlServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>sparqlServlet</servlet-name>
+    <url-pattern>/geozic/sparql</url-pattern>
+  </servlet-mapping>
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>GeoZic.html</welcome-file>
