@@ -1,4 +1,4 @@
-package fr.cnam.siw.client;
+package fr.cnam.projetSiw.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
@@ -9,5 +9,5 @@ public interface GreetingServiceAsync {
 	void greetServer(String input, AsyncCallback<String> callback)
 			throws IllegalArgumentException;
 
-	void generateXPATHrequest(AsyncCallback<Void> callback);
+	void getSparqlDatas(AsyncCallback<String> callback);
 }

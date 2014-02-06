@@ -1,4 +1,4 @@
-package fr.cnam.siw.shared;
+package fr.cnam.projetSiw.shared;
 
 /**
  * <p>

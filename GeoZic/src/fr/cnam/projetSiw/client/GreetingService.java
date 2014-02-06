@@ -1,4 +1,4 @@
-package fr.cnam.siw.client;
+package fr.cnam.projetSiw.client;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
@@ -10,5 +10,5 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 public interface GreetingService extends RemoteService {
 	String greetServer(String name) throws IllegalArgumentException;
 	
-	void generateXPATHrequest();
+	String getSparqlDatas();
 }
